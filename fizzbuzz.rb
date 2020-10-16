@@ -5,13 +5,13 @@ def fizzbuzz (int)
     return "Fizz"
 
   elsif int % 5 == 0
-    puts "Buzz"
+    return "Buzz"
 
   elsif (int % 3 == 0) && (int % 5 == 0)
-    puts "Fizzbuzz"
+    return "Fizzbuzz"
 
   else
-    puts "nil"
+    return "nil"
   end
 
 end
