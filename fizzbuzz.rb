@@ -2,10 +2,10 @@
 # See README.md for instructions on how to do this
 def fizzbuzz (int)
 
-elsif (int % 3 == 0) && (int % 5 == 0)
-  return "Fizzbuzz"
 
-  if int % 3 == 0
+  if (int % 3 == 0) && (int % 5 == 0)
+    return "Fizzbuzz"
+  elsif int % 3 == 0
     return "Fizz"
 
   elsif int % 5 == 0
